@@ -115,6 +115,9 @@ html, body, .page {
   
   .title, .hint {
     display: block;
+    color: whitesmoke;
+    margin: 5%;
+    margin-bottom: 30%;
   }
   
   .title {
@@ -184,7 +187,7 @@ html, body, .page {
   
   #menu{
     
-    top:-50%;
-    
-    
+    top:-70%;
+       
   }
+  
