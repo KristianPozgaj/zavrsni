@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { DashboardComponent } from '../component/dashboard/dashboard.component';
 
+import { NgxChartsModule } from '@swimlane/ngx-charts';
 
 
 @NgModule({
@@ -12,7 +13,8 @@ import { DashboardComponent } from '../component/dashboard/dashboard.component';
     DashboardComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgxChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
