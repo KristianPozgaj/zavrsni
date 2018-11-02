@@ -31,5 +31,41 @@ export class DashboardComponent implements OnInit {
   
   ngOnInit() {  
   }
+  multi: any[] = [
+		{
+			name: 'Cyan',
+			series: [
+				{
+					name: 5,
+					value: 2650
+				},
+				{
+					name: 10,
+					value: 2800
+				},
+				{
+					name: 15,
+					value: 2000
+				}
+			]
+		},
+		{
+			name: 'Yellow',
+			series: [
+				{
+					name: 5,
+					value: 2500
+				},
+				{
+					name: 10,
+					value: 3100
+				},
+				{
+					name: 15,
+					value: 2350
+				}
+			]
+		}
+	];
 
 }
